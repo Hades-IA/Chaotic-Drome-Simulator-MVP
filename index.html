@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+
+<body>
+    <a href="#" class="button1">Button 1 class</a>
+    <a href="#" class="button2">Button 2 class</a>
+    <!--loop infinito cuidado!!!-->
+    <script>
+        var audio = null;
+        var classes = ['button1', 'button2'];
+        for (var i = 0; i < classes.length; i++) {
+            var elements = document.getElementsByClassName(classes[i]);
+            for (var j = 0; j < elements.length; j++) {
+                elements[j].onclick = function (event) {
+                    event.preventDefault();
+                    audio = document.createElement('audio');
+                    audio.src = './(Go Tell Aunt Rhody).mp3';
+                    audio.autoplay = true;
+                    document.body.appendChild(audio);
+                }
+                elements[j].onmouseover = function (event) {
+                    event.preventDefault();
+                    audio = document.createElement('audio');
+                    audio.src = './(Go Tell Aunt Rhody).mp3';
+                    audio.autoplay = true;
+                    document.body.appendChild(audio);
+                }
+            }
+        }
+    </script>
+</body>
+
+</html>
