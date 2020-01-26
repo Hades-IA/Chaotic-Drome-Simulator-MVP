@@ -1,0 +1,12 @@
+.carousel-control-prev, .carousel-control-next{
+    background-color:red ;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    
+}
+
+.carousel-control-prev-icon, .carousel-control-next-icon{
+    transform:rotate(270deg);
+}
