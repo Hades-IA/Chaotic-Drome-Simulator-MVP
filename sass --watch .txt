@@ -1,3 +1,6 @@
 
 
-sass --watch node_modules\bootstrap\scss:node_modules\bootstrap\compiler2 node_modules\font-awesome\scss:node_modules\font-awesome\css css\scss:css\css
+sass --watch node_modules\bootstrap\scss:node_modules\bootstrap\compiler2 css\scss:css\css
+
+
+node_modules\font-awesome\scss:node_modules\font-awesome\css
