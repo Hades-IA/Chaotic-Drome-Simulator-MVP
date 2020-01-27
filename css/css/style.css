@@ -1,31 +1,14 @@
 .carousel-control-prev, .carousel-control-next {
   background-color: red;
+  width: 73px;
   top: auto;
   bottom: auto;
   right: auto;
   left: auto; }
 
 .carousel-control-prev-icon, .carousel-control-next-icon {
-  transform: rotate(270deg); }
-
-.teste {
-  background-color: blue;
-  height: 300px;
-  display: grid;
-  grid-template-columns: 1fr 2fr 1fr;
-  grid-template-rows: 20vw 25vh; }
-
-.testo {
-  background-color: olive; }
-
-.testo1 {
-  background-color: orange; }
-
-.testo1 > img {
-  max-width: 100% !important; }
-
-.carousel > .w-100 {
-  max-height: -webkit-fill-available; }
+  transform: rotate(270deg);
+  height: 42px; }
 
 .battle-template {
   display: flex;
@@ -46,7 +29,7 @@
 .selected img {
   grid-column: 1;
   grid-row: 1/4;
-  margin-top: auto;
+  margin-top: 1%;
   margin-bottom: auto;
   margin-left: auto;
   margin-right: auto; }
@@ -66,7 +49,7 @@
 .selected > .carousel {
   grid-column: 1;
   grid-row: 2;
-  margin-top: 0;
+  margin-top: -41px;
   margin-right: auto;
   margin-left: auto;
   text-align: center;
@@ -74,7 +57,56 @@
 
 .selected > .carousel img {
   margin-top: 2px;
-  height: 275px;
+  height: 278px;
   border: 5px solid red; }
+
+.seletor {
+  display: grid;
+  grid-column: 1;
+  grid-row: 3;
+  grid-template-rows: 2% 25% 2%; }
+
+.seletor a {
+  display: grid; }
+
+.btn-top1, .btn-top2, .btn-top3, .btn-top4 {
+  display: grid !important;
+  grid-column: 1;
+  grid-row: 1;
+  margin-top: 24px; }
+
+.btn-top1 {
+  margin-left: 50%; }
+
+.btn-top2 {
+  margin-left: 65%; }
+
+.btn-top3 {
+  margin-left: 36%; }
+
+.btn-top4 {
+  margin-left: 22%; }
+
+.btn-bott1, .btn-bott2, .btn-bott3, .btn-bott4 {
+  grid-column: 1;
+  display: grid;
+  grid-row: 3;
+  margin-top: 0px; }
+
+.btn-bott1 {
+  margin-left: 50%; }
+
+.btn-bott2 {
+  margin-left: 65%; }
+
+.btn-bott3 {
+  margin-left: 36%; }
+
+.btn-bott4 {
+  margin-left: 22%; }
+
+.seletor > .selector2 {
+  display: grid;
+  grid-row: 2 !important; }
 
 /*# sourceMappingURL=style.css.map */
