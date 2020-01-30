@@ -23,5 +23,4 @@ function play() {
     player.load();
     list.appendChild(player)
 }
-music.addEventListener('click', play)
 

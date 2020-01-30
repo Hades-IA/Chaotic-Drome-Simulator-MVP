@@ -7,26 +7,28 @@ var countUnderworld = -1;
 var countMipe = -1;
 var countDanian = -1;
 var countOverworld = -1;
+var start = 0;
 
 //functions
 function mipedianSRC() {
-    console.log(countMipe);
+
     return x = document.getElementsByClassName("mipedian")[countMipe].src;
 }
 
 function underworldSRC() {
-    console.log(countUnderworld);
+
     return x = document.getElementsByClassName("underworld")[countUnderworld].src;
 }
 
 function danianSRC() {
-    console.log(countDanian);
+
     return x = document.getElementsByClassName("danian")[countDanian].src;
 }
 function overworldSRC() {
-    console.log(countOverworld);
+
     return x = document.getElementsByClassName("overworld")[countOverworld].src;
 }
+
 
 //danian
 D = 0
@@ -46,6 +48,7 @@ function nextDanian() {
         D++
         $(".carousel").carousel(12)
     }
+
 }
 function prevDanian() {
     M = -1;
@@ -63,6 +66,7 @@ function prevDanian() {
         D++;
         $(".carousel").carousel(15)
     }
+
 }
 
 //overworld
@@ -183,16 +187,56 @@ function prevUnderworld() {
 function Card1() {
     if (countUnderworld > countMipe && countUnderworld > countOverworld && countUnderworld > countDanian) {
         card1.src = underworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countMipe > countUnderworld && countMipe > countDanian && countMipe > countOverworld) {
         card1.src = mipedianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countDanian > countMipe && countDanian > countOverworld && countDanian > countUnderworld) {
         card1.src = danianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countOverworld > countUnderworld && countOverworld > countDanian && countOverworld > countMipe) {
         card1.src = overworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else {
         alert("Erro!Choose one card!")
     }
@@ -200,16 +244,56 @@ function Card1() {
 function Card2() {
     if (countUnderworld > countMipe && countUnderworld > countOverworld && countUnderworld > countDanian) {
         card2.src = underworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countMipe > countUnderworld && countMipe > countDanian && countMipe > countOverworld) {
         card2.src = mipedianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countDanian > countMipe && countDanian > countOverworld && countDanian > countUnderworld) {
         card2.src = danianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countOverworld > countUnderworld && countOverworld > countDanian && countOverworld > countMipe) {
         card2.src = overworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else {
         alert("Erro!Choose one card!")
     }
@@ -218,16 +302,56 @@ function Card2() {
 function Card3() {
     if (countUnderworld > countMipe && countUnderworld > countOverworld && countUnderworld > countDanian) {
         card3.src = underworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countMipe > countUnderworld && countMipe > countDanian && countMipe > countOverworld) {
         card3.src = mipedianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countDanian > countMipe && countDanian > countOverworld && countDanian > countUnderworld) {
         card3.src = danianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countOverworld > countUnderworld && countOverworld > countDanian && countOverworld > countMipe) {
         card3.src = overworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else {
         alert("Erro!Choose one card!")
     }
@@ -236,16 +360,57 @@ function Card3() {
 function Card4() {
     if (countUnderworld > countMipe && countUnderworld > countOverworld && countUnderworld > countDanian) {
         card4.src = underworldSRC();
+        while (start > 0) {
+
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
 
     } else if (countMipe > countUnderworld && countMipe > countDanian && countMipe > countOverworld) {
         card4.src = mipedianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countDanian > countMipe && countDanian > countOverworld && countDanian > countUnderworld) {
         card4.src = danianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countOverworld > countUnderworld && countOverworld > countDanian && countOverworld > countMipe) {
         card4.src = overworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else {
         alert("Erro!Choose one card!")
     }
@@ -254,34 +419,115 @@ function Card4() {
 function Card5() {
     if (countUnderworld > countMipe && countUnderworld > countOverworld && countUnderworld > countDanian) {
         card5.src = underworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countMipe > countUnderworld && countMipe > countDanian && countMipe > countOverworld) {
         card5.src = mipedianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countDanian > countMipe && countDanian > countOverworld && countDanian > countUnderworld) {
         card5.src = danianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countOverworld > countUnderworld && countOverworld > countDanian && countOverworld > countMipe) {
         card5.src = overworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else {
         alert("Erro!Choose one card!")
     }
 }
 
 function Card6() {
+
     if (countUnderworld > countMipe && countUnderworld > countOverworld && countUnderworld > countDanian) {
         card6.src = underworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countMipe > countUnderworld && countMipe > countDanian && countMipe > countOverworld) {
         card6.src = mipedianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countDanian > countMipe && countDanian > countOverworld && countDanian > countUnderworld) {
         card6.src = danianSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else if (countOverworld > countUnderworld && countOverworld > countDanian && countOverworld > countMipe) {
         card6.src = overworldSRC();
+        while (start > 0) {
 
+            start--;
+        }
+        if (start <= 0) {
+            audio = document.createElement('audio');
+            audio.src = './onSelect13.mp3';
+            audio.autoplay = true;
+            list.appendChild(audio);
+            start++;
+        }
     } else {
         alert("Erro!Choose one card!")
     }
