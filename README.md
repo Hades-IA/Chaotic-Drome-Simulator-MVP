@@ -15,7 +15,7 @@ It is a little complicated. You need to open imgs.js to search for $ ('. Carouse
 
 Example: the function nextUnderworld ()  causes the carousel to start on slide 0 (Chaor) whenever it is clicked and the  function prevUnderworld ()  causes the carousel to start on slide 3 (VanBloot). To add a new card from the underworld, you need to change the function prevUnderworld () $ ('. Carousel') . Carousel (3) to $ ('. Carousel'). Carousel (4) and all other $ ('. Carousel'). Carousel () to the original +1. you will also need to add your img in html:
 <div class="carousel-item active">
-                         <!-  <img class="underworld d-block w-100" src="./img/slide0.png">
+                          <img class="underworld d-block w-100" src="./img/slide0.png">
                         </div>
                         <div class="carousel-item">
                             <img class="underworld d-block w-100" src="./img/slide1.png">
@@ -29,7 +29,7 @@ Example: the function nextUnderworld ()  causes the carousel to start on slide 0
                         <div class="carousel-item">
                             <img class="underworld d-block w-100" src="./img/YourNewCardimg.png">
                         </div>
-                        -> 
+                 
                         
                         
                         
