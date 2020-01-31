@@ -1,6 +1,6 @@
 # Chaotic-Drome-Simulator-MVP
  One simulator of Chaotic deck builder Drome. All nostalgia of animation in a simple interface! 
-<<<<<<< HEAD
+
 
  
 =======
@@ -41,4 +41,4 @@ Example: the function nextUnderworld ()  causes the carousel to start on slide 0
                         
                         
                         
->>>>>>> 9bd4cf53e1b5efc944018e8a4dab2d1715da08fb
+
