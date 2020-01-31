@@ -9,7 +9,7 @@
 
 -How to add my cards?
 
-there are two paths:
+There are two paths:
 
 1- overwrite existing cards. you just need to rename your image (600 x 300) to slidenumber.png.
 Example: in Chaotic-Drome-Simulator-MVP \ img, you named your card slide0.png and replace Chaor.
@@ -44,5 +44,8 @@ Example: the function nextUnderworld ()  causes the carousel to start on slide 0
 The MIT license basically allows you to do anything, but if the current Chaotic copyright owner asks you to delete everything, you should do.
 
 -About this project.
-this is just an MPV, CSS and javascript need a lot of improvements to be used as a product.
+This is just an MPV, CSS and javascript need a lot of improvements to be used as a product. in the last quarter i will release a game or app using this interface for deck builder.
+Follow all about my project in :
+Youtube:https://www.youtube.com/channel/UCfRfz3hnuSi2wAkLEGdKAwQ?view_as=subscriber
+Facebook:https://www.facebook.com/Chaotic-Reborn-100335571538462/
 
