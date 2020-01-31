@@ -1,5 +1,7 @@
 # Chaotic-Drome-Simulator-MVP
  One simulator of Chaotic deck builder Drome. All nostalgia of animation in a simple interface! 
+ <img src="./img/slide3.png">
+
 
 -How to add my cards?
 
